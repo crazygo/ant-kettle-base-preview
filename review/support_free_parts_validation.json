@@ -1,0 +1,174 @@
+{
+  "revision": "v1.8",
+  "slicer": "Bambu Studio 02.06.00.51",
+  "machine": "Bambu Lab A1 0.4 nozzle",
+  "filament": "Generic PLA @BBL A1; formulation unspecified by user",
+  "process": "0.20mm Standard @BBL A1, supports off, no checks bypassed",
+  "parts": [
+    {
+      "revision": "v1.8-pla-standard",
+      "part": "upper",
+      "support_enabled": false,
+      "filament_profile": "Generic PLA @BBL A1",
+      "standard_process": true,
+      "support_necessity_warnings": [],
+      "returncode": 0,
+      "stl_sha256": "42a0f3274aa9ba0d5335a3537874a803d5c8fdb9ec0d3e172723f7f498c93b91",
+      "settings_sha256": {
+        "machine.json": "33f705e541dd4fe47eb55c85caec506722a55cd6b6be4099be51589c0f5f02d4",
+        "process_no_support.json": "a1e88ae57ddbad013af7f7b1f27cb6567ef482de849f9b1e3cea5c7ecabef556",
+        "filament.json": "f5d823e99b64c3132c2725c2a674c322072f9ab1ea6fe6c330e57beb2fd40896"
+      },
+      "filament_comments": [
+        "; total filament length [mm] : 9940.45",
+        "; total filament volume [cm^3] : 23909.58",
+        "; total filament weight [g] : 29.65"
+      ],
+      "filaments": [
+        {
+          "id": "1",
+          "tray_info_idx": "GFL99",
+          "type": "PLA",
+          "color": "#00AE42",
+          "used_m": "9.94",
+          "used_g": "29.65",
+          "group_id": "0",
+          "nozzle_diameter": "0.40",
+          "volume_type": "Standard",
+          "used_for_object": "true",
+          "used_for_support": "false"
+        }
+      ],
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "2",
+          "error_code": "10018003"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "3",
+          "error_code": "1000C003"
+        }
+      ],
+      "source_revision": "v1.6-pla-standard",
+      "reuse_reason": "Exact STL SHA256 unchanged; original sliced result reused without rerunning.",
+      "generated_support_features": 0
+    },
+    {
+      "revision": "v1.8-pla-standard",
+      "part": "base",
+      "support_enabled": false,
+      "filament_profile": "Generic PLA @BBL A1",
+      "standard_process": true,
+      "support_necessity_warnings": [],
+      "returncode": 0,
+      "stl_sha256": "1b5824f74a9140e7b10edb077ae4dafb1c141b5a8cf35cc9aa2df84c1dedf2ff",
+      "settings_sha256": {
+        "machine.json": "33f705e541dd4fe47eb55c85caec506722a55cd6b6be4099be51589c0f5f02d4",
+        "process_no_support.json": "a1e88ae57ddbad013af7f7b1f27cb6567ef482de849f9b1e3cea5c7ecabef556",
+        "filament.json": "f5d823e99b64c3132c2725c2a674c322072f9ab1ea6fe6c330e57beb2fd40896"
+      },
+      "filament_comments": [
+        "; total filament length [mm] : 24289.39",
+        "; total filament volume [cm^3] : 58422.84",
+        "; total filament weight [g] : 72.44"
+      ],
+      "filaments": [
+        {
+          "id": "1",
+          "tray_info_idx": "GFL99",
+          "type": "PLA",
+          "color": "#00AE42",
+          "used_m": "24.29",
+          "used_g": "72.44",
+          "group_id": "0",
+          "nozzle_diameter": "0.40",
+          "volume_type": "Standard",
+          "used_for_object": "true",
+          "used_for_support": "false"
+        }
+      ],
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "2",
+          "error_code": "10018003"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "3",
+          "error_code": "1000C003"
+        }
+      ],
+      "generated_support_features": 0
+    },
+    {
+      "revision": "v1.8-pla-standard",
+      "part": "crown_sample",
+      "support_enabled": false,
+      "filament_profile": "Generic PLA @BBL A1",
+      "standard_process": true,
+      "support_necessity_warnings": [],
+      "returncode": 0,
+      "stl_sha256": "ead69048288d0651d1835dc94d583f892bf503da486bac2a50ed0bd19240a74b",
+      "settings_sha256": {
+        "machine.json": "33f705e541dd4fe47eb55c85caec506722a55cd6b6be4099be51589c0f5f02d4",
+        "process_no_support.json": "a1e88ae57ddbad013af7f7b1f27cb6567ef482de849f9b1e3cea5c7ecabef556",
+        "filament.json": "f5d823e99b64c3132c2725c2a674c322072f9ab1ea6fe6c330e57beb2fd40896"
+      },
+      "filament_comments": [
+        "; total filament length [mm] : 1274.70",
+        "; total filament volume [cm^3] : 3066.02",
+        "; total filament weight [g] : 3.80"
+      ],
+      "filaments": [
+        {
+          "id": "1",
+          "tray_info_idx": "GFL99",
+          "type": "PLA",
+          "color": "#00AE42",
+          "used_m": "1.27",
+          "used_g": "3.80",
+          "group_id": "0",
+          "nozzle_diameter": "0.40",
+          "volume_type": "Standard",
+          "used_for_object": "true",
+          "used_for_support": "false"
+        }
+      ],
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "2",
+          "error_code": "10018003"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "3",
+          "error_code": "1000C003"
+        }
+      ],
+      "source_revision": "v1.6-pla-standard",
+      "reuse_reason": "Exact STL SHA256 unchanged; original sliced result reused without rerunning.",
+      "generated_support_features": 0
+    }
+  ],
+  "channel_bridge_mm": 6.6,
+  "scope": "Slicing only; physical surface formation, tipping, heat, leakage and ant performance need retesting."
+}

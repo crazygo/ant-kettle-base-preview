@@ -1,0 +1,224 @@
+{
+  "slicer": "Bambu Studio 02.06.00.51",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "reference_filament": "Bambu PETG HF @BBL A1",
+  "layer_height_mm": 0.2,
+  "wall_loops": 5,
+  "top_and_bottom_shell_layers": 6,
+  "infill": "35% gyroid",
+  "supports": "v1.3: both parts automatic supports; v1.8: both parts supports OFF. Other reference walls, shell and infill settings match.",
+  "brim": "none",
+  "bed": "Textured PEI Plate; profile 70 C",
+  "baseline_revision": "v1.3",
+  "candidate_revision": "v1.8",
+  "baseline_estimated_g": 340.02,
+  "candidate_estimated_g": 109.91,
+  "estimated_filament_saving_percent": 67.67543085700841,
+  "baseline_solid_volume_cm3": 474.121,
+  "candidate_solid_volume_cm3": 93.66900000000001,
+  "solid_volume_reduction_percent": 80.24365088236969,
+  "records": [
+    {
+      "revision": "v1.3",
+      "part": "upper",
+      "stl_sha256": "7266d02bbf8d093c35a71307b04d9f0071cfd88730b4a9c1f6ae5e8cdc125e7f",
+      "settings_sha256": {
+        "machine.json": "33f705e541dd4fe47eb55c85caec506722a55cd6b6be4099be51589c0f5f02d4",
+        "process.json": "3fa5232184cbdbe9700a40582b895bfa868a5a4671d5cac0dfd831ae82eb9bf6",
+        "filament.json": "f24762eaa35a90cba0a2a9afd64030520453a3698730a7f5fff7dfce5c6d28fc"
+      },
+      "filaments": [
+        {
+          "id": "1",
+          "tray_info_idx": "GFG02",
+          "type": "PETG",
+          "color": "#00AE42",
+          "used_m": "60.74",
+          "used_g": "187.02",
+          "group_id": "0",
+          "nozzle_diameter": "0.40",
+          "volume_type": "Standard",
+          "used_for_object": "true",
+          "used_for_support": "false"
+        }
+      ],
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        }
+      ],
+      "filament_weight_g": 187.02,
+      "filament_length_m": 60.74,
+      "predicted_total_seconds": 22598,
+      "returncode": 0,
+      "header": "; HEADER_BLOCK_START\n; BambuStudio 02.06.00.51\n; model printing time: 6h 10m 23s; total estimated time: 6h 16m 38s\n; total layer number: 70\n; total filament length [mm] : 60744.63\n; total filament volume [cm^3] : 146107.95\n; total filament weight [g] : 187.02\n; filament_density: 1.28\n; filament_diameter: 1.75\n; max_z_height: 14.00\n; filament: 1\n; HEADER_BLOCK_END"
+    },
+    {
+      "revision": "v1.3",
+      "part": "base",
+      "stl_sha256": "d2d5c898da751056539c5ded10cf1fa8af7e9b24d50eb763e5d320ccdef07d2d",
+      "settings_sha256": {
+        "machine.json": "33f705e541dd4fe47eb55c85caec506722a55cd6b6be4099be51589c0f5f02d4",
+        "process.json": "3fa5232184cbdbe9700a40582b895bfa868a5a4671d5cac0dfd831ae82eb9bf6",
+        "filament.json": "f24762eaa35a90cba0a2a9afd64030520453a3698730a7f5fff7dfce5c6d28fc"
+      },
+      "filaments": [
+        {
+          "id": "1",
+          "tray_info_idx": "GFG02",
+          "type": "PETG",
+          "color": "#00AE42",
+          "used_m": "49.70",
+          "used_g": "153.00",
+          "group_id": "0",
+          "nozzle_diameter": "0.40",
+          "volume_type": "Standard",
+          "used_for_object": "true",
+          "used_for_support": "true"
+        }
+      ],
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "2",
+          "error_code": "10018003"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "3",
+          "error_code": "1000C003"
+        }
+      ],
+      "filament_weight_g": 153.0,
+      "filament_length_m": 49.7,
+      "predicted_total_seconds": 17035,
+      "returncode": 0,
+      "header": "; HEADER_BLOCK_START\n; BambuStudio 02.06.00.51\n; model printing time: 4h 37m 40s; total estimated time: 4h 43m 55s\n; total layer number: 194\n; total filament length [mm] : 49695.55\n; total filament volume [cm^3] : 119531.81\n; total filament weight [g] : 153.00\n; filament_density: 1.28\n; filament_diameter: 1.75\n; max_z_height: 38.00\n; filament: 1\n; HEADER_BLOCK_END"
+    },
+    {
+      "revision": "v1.8",
+      "part": "upper",
+      "support_enabled": false,
+      "support_necessity_warnings": [],
+      "returncode": 0,
+      "stl_sha256": "42a0f3274aa9ba0d5335a3537874a803d5c8fdb9ec0d3e172723f7f498c93b91",
+      "settings_sha256": {
+        "machine.json": "33f705e541dd4fe47eb55c85caec506722a55cd6b6be4099be51589c0f5f02d4",
+        "process_no_support.json": "951f9b887586bfb2bd92e81eea9b8bed99b9adfe83109b7655cf8bf5dc69d109",
+        "filament.json": "f24762eaa35a90cba0a2a9afd64030520453a3698730a7f5fff7dfce5c6d28fc"
+      },
+      "filament_comments": [
+        "; total filament length [mm] : 10874.57",
+        "; total filament volume [cm^3] : 26156.41",
+        "; total filament weight [g] : 33.48"
+      ],
+      "filaments": [
+        {
+          "id": "1",
+          "tray_info_idx": "GFG02",
+          "type": "PETG",
+          "color": "#00AE42",
+          "used_m": "10.87",
+          "used_g": "33.48",
+          "group_id": "0",
+          "nozzle_diameter": "0.40",
+          "volume_type": "Standard",
+          "used_for_object": "true",
+          "used_for_support": "false"
+        }
+      ],
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "2",
+          "error_code": "10018003"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "3",
+          "error_code": "1000C003"
+        }
+      ],
+      "source_revision": "v1.6",
+      "reuse_reason": "Exact STL SHA256 unchanged; original sliced result reused without rerunning.",
+      "generated_support_features": 0
+    },
+    {
+      "revision": "v1.8",
+      "part": "base",
+      "support_enabled": false,
+      "filament_profile": "Bambu PETG HF @BBL A1",
+      "standard_process": false,
+      "support_necessity_warnings": [],
+      "returncode": 0,
+      "stl_sha256": "1b5824f74a9140e7b10edb077ae4dafb1c141b5a8cf35cc9aa2df84c1dedf2ff",
+      "settings_sha256": {
+        "machine.json": "33f705e541dd4fe47eb55c85caec506722a55cd6b6be4099be51589c0f5f02d4",
+        "process_no_support.json": "951f9b887586bfb2bd92e81eea9b8bed99b9adfe83109b7655cf8bf5dc69d109",
+        "filament.json": "f24762eaa35a90cba0a2a9afd64030520453a3698730a7f5fff7dfce5c6d28fc"
+      },
+      "filament_comments": [
+        "; total filament length [mm] : 24825.80",
+        "; total filament volume [cm^3] : 59713.04",
+        "; total filament weight [g] : 76.43"
+      ],
+      "filaments": [
+        {
+          "id": "1",
+          "tray_info_idx": "GFG02",
+          "type": "PETG",
+          "color": "#00AE42",
+          "used_m": "24.83",
+          "used_g": "76.43",
+          "group_id": "0",
+          "nozzle_diameter": "0.40",
+          "volume_type": "Standard",
+          "used_for_object": "true",
+          "used_for_support": "false"
+        }
+      ],
+      "warnings": [
+        {
+          "msg": "bed_temperature_too_high_than_filament",
+          "level": "3",
+          "error_code": "1000C001"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "2",
+          "error_code": "10018003"
+        },
+        {
+          "msg": "not_support_traditional_timelapse",
+          "level": "3",
+          "error_code": "1000C003"
+        }
+      ],
+      "generated_support_features": 0
+    }
+  ],
+  "scope": "PETG HF fixed reference. User printed PLA. Six-leg v1.8 does not meet the previous 80% filament target; it is not physically tested.",
+  "warnings": "The stock PETG HF configuration uses a 70 C bed and reports bed_temperature_too_high_than_filament. Its vitrification field is also 70 C. Support plates report traditional-timelapse limitations. These warnings are retained; this is a material benchmark, not a qualified printer job. No reference G-code is shipped or sent.",
+  "comparison_contract": "Practical two-plate consumption. Base support setting differs because repaired roots permit support-off slicing. No claim that support profiles are identical.",
+  "previous_four_leg_revision": "v1.6",
+  "previous_four_leg_estimated_g": 124.75,
+  "previous_lightweight_revision": "v1.5",
+  "previous_lightweight_estimated_g": 66.61,
+  "pla_standard_estimates_g": {
+    "upper": 29.65,
+    "base": 72.44,
+    "crown_sample": 3.8
+  }
+}
